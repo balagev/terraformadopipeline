@@ -3,7 +3,7 @@ name: Terraform - deploy Service Bus to env01
 trigger: none
 
 variables:
-  - group: Terraform_SPN
+  - group: TF_test
   - name: rootFolder
     value: 'terraform/'
   - name: tfvarsFile
